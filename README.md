@@ -26,7 +26,11 @@
   │       └── SwaggerPetstore.postman_environment.json
   ├── tests
   │   └── api
+  │       └── GET.spec.ts
+  ├── .eslintrc.json
   ├── .gitignore
+  ├── .prettierignore
+  ├── .prettierrc.json
   ├── package-lock.json
   ├── package.json
   ├── playwright.config.ts
