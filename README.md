@@ -26,8 +26,9 @@
   │       └── SwaggerPetstore.postman_environment.json
   ├── tests
   │   └── api
+  ├── .gitignore
+  ├── package-lock.json
   ├── package.json
-  ├── README.md
-  ├── tsconfig.json
-  └── .gitignore
+  ├── playwright.config.ts
+  └── README.md
 ```
