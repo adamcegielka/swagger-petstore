@@ -35,13 +35,11 @@ This project includes API tests for [Swagger Petstore](https://petstore.swagger.
   └── README.md
 ```
 
-#### Install dependencies:
+### Playwright tests:
 
-`npm install`
-
-#### Install dependencies:
-
-`npm run test`
+1. Clone repository: `git clone https://github.com/adamcegielka/swagger-petstore.git`
+2. Install dependencies: `npm install`
+3. Run tests: `npm run test`
 
 ### Postman tests:
 
