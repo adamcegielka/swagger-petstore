@@ -3,15 +3,13 @@
 [![Support badge](https://img.shields.io/badge/stackoverflow-Playwright-45ba4b.svg?logo=stackoverflow)](https://stackoverflow.com/questions/tagged/playwright)
 <br>
 
-# Swagger Petstore
+# Swagger Petstore API Testing Project
 
-[Swagger UI](https://petstore.swagger.io/)
-
-<br>
-
+This project includes API tests for [Swagger Petstore](https://petstore.swagger.io/), written using Playwright. In addition, tests in the Postman environment are included with the project.
 
 ### Project structure
-```
+
+```bash
 /swagger-petstore
   ├── .github
   │   └── workflows
@@ -36,3 +34,17 @@
   ├── playwright.config.ts
   └── README.md
 ```
+
+#### Install dependencies:
+
+`npm install`
+
+#### Install dependencies:
+
+`npm run test`
+
+### Postman tests:
+
+1. Import the SwaggerPetstore.postman_collection.json into Postman.
+2. Import the SwaggerPetstore.postman_environment.json environment into Postman.
+3. Run the collection in Postman.
