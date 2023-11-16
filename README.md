@@ -1,6 +1,6 @@
 [![Playwright.dev](https://img.shields.io/badge/Documentation-Playwright-45ba4b.svg?logo=playwright)](https://playwright.dev/docs/intro)
 [![Playwright.dev](https://img.shields.io/badge/API%20reference-Playwright-D0422C.svg)](https://playwright.dev/docs/api/class-playwright)
-[![Support badge](https://img.shields.io/badge/stackoverflow-Playwright-45ba4b.svg?logo=stackoverflow)](https://stackoverflow.com/questions/tagged/playwright)
+[![Postman](https://img.shields.io/badge/Learning%20Center-Postman-f26635.svg?logo=postman)](https://learning.postman.com/)
 <br>
 
 # Swagger Petstore API Testing Project
@@ -46,3 +46,20 @@ This project includes API tests for [Swagger Petstore](https://petstore.swagger.
 1. Import the SwaggerPetstore.postman_collection.json into Postman.
 2. Import the SwaggerPetstore.postman_environment.json environment into Postman.
 3. Run the collection in Postman.
+
+### Tutorials
+
+- [Rest API Testing (Automation) with Playwright & TypeScript](https://www.udemy.com/course/rest-api-testing-automation-with-playwright-typescript)
+- [Playwright: API Testing](https://www.youtube.com/watch?v=dFLEHJq9iCE)
+- [Playwright with Javascript | Rest API Testing | HTTP Requests |Get,Post,Put & Delete](https://www.youtube.com/watch?v=I7qNaLmq6Cg)
+- [Postman od podstaw - testowanie REST API - Udemi](https://www.udemy.com/course/postman-od-podstaw-testowanie-rest-api/)
+- [Postman - testowanie REST API - Udemi](https://www.udemy.com/course/kurs-postman/)
+- [Postman (REST API) - AkademiaQA](https://www.youtube.com/watch?v=Dc4RLZHzP1k&list=PLgfR8BjWJLg8c0d9B7LJoE1-gyKNTM-s1)
+- [How to write automated tests with Postman](https://www.youtube.com/watch?v=z0MimkXIvE8&list=RDCMUCTBGXCJHORQjivtgtMsmkAQ&start_radio=1&rv=z0MimkXIvE8&t=853)
+- [How to automate API Tests with Postman](https://www.youtube.com/watch?v=o5e7hHeJ17c&list=RDCMUCmWxXicbngdZAk0X2j8ZU9Q&start_radio=1)
+- [Learn JavaScript for Postman API testing - Full Course for Beginners](https://www.youtube.com/watch?v=juuhb3W8xT4&list=RDCMUCUUl_HXJjU--iYjUkIgEcTw&start_radio=1&rv=juuhb3W8xT4&t=768)
+
+### Author
+
+Author: [Adam Cegiełka](https://github.com/adamcegielka)  
+Happy API testing!
