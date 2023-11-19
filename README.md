@@ -47,10 +47,10 @@ This project includes API tests for [Swagger Petstore](https://petstore.swagger.
 ### Postman tests:
 
 1. Import collections into the Postman:
-  - Swagger-Petstore-Pet.postman_collection.json
-  - Swagger-Petstore-Store.postman_collection.json
-  - Swagger-Petstore-User.postman_collection.json
-2. Import the Swagger-Petstore.postman_environment.json environment into Postman.
+    - `Swagger-Petstore-Pet.postman_collection.json`
+    - `Swagger-Petstore-Store.postman_collection.json`
+    - `Swagger-Petstore-User.postman_collection.json`
+2. Import the `Swagger-Petstore.postman_environment.json` environment into Postman.
 3. Run the collection in Postman.
 
 ### Tutorials
