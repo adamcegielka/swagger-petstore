@@ -13,18 +13,21 @@ This project includes API tests for [Swagger Petstore](https://petstore.swagger.
 /swagger-petstore
   ├── .github
   │   └── workflows
+  │       └── playwright-tests.yml
   ├── data
   │   └── login.data.ts
   ├── env
   │   └── .env
   │   └── global.ts
   ├── postman
-  │   ├── SwaggerPetstore.postman_collection.json
+  │   ├── Swagger-Petstore-Pet.postman_collection.json
+  │   ├── Swagger-Petstore-Store.postman_collection.json
+  │   ├── Swagger-Petstore-User.postman_collection.json
   │   └── environment
-  │       └── SwaggerPetstore.postman_environment.json
+  │       └── Swagger-Petstore.postman_environment.json
   ├── tests
   │   └── api
-  │       └── GET.spec.ts
+  │       └── pet-GET-fine-by-status.spec.ts
   ├── .eslintrc.json
   ├── .gitignore
   ├── .prettierignore
@@ -43,8 +46,11 @@ This project includes API tests for [Swagger Petstore](https://petstore.swagger.
 
 ### Postman tests:
 
-1. Import the SwaggerPetstore.postman_collection.json into Postman.
-2. Import the SwaggerPetstore.postman_environment.json environment into Postman.
+1. Import collections into the Postman:
+  - Swagger-Petstore-Pet.postman_collection.json
+  - Swagger-Petstore-Store.postman_collection.json
+  - Swagger-Petstore-User.postman_collection.json
+2. Import the Swagger-Petstore.postman_environment.json environment into Postman.
 3. Run the collection in Postman.
 
 ### Tutorials
