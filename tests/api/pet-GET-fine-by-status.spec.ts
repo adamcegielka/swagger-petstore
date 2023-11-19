@@ -41,4 +41,17 @@ test.describe('GET/pet/findByStatus Fine Pets by status', () => {
 
     console.log(await response.json());
   });
+
+  // BUG - server returns the code 200, not 400
+  test('return invalid status value', async ({ request }) => {
+    test.fail();
+    const endpoint: string = 'pet/';
+    const findByStatus: string = 'findByStatus?status=xyz';
+    const statusCode = 400;
+
+    const response = await request.get(`${baseURL + endpoint + findByStatus}`);
+
+    expect(response.ok()).toBeFalsy();
+    expect(response.status()).toBe(statusCode);
+  });
 });
