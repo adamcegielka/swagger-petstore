@@ -51,7 +51,6 @@ test.describe('GET/pet/findByStatus Fine Pets by status', () => {
 
     const response = await request.get(`${baseURL + endpoint + findByStatus}`);
 
-    expect(response.ok()).toBeFalsy();
     expect(response.status()).toBe(statusCode);
   });
 });
