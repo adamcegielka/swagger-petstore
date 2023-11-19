@@ -8,9 +8,12 @@
   },
   "scripts": {
     "test": "npx playwright test",
+    "open:ui": "npx playwright test --ui",
     "report": "npx playwright show-report",
     "prettier": "npx prettier --write .",
-    "lint": "eslint . --fix --max-warnings=0"
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix .",
+    "prepare": "husky install"
   },
   "keywords": [],
   "author": "",
@@ -23,6 +26,13 @@
     "eslint": "^8.53.0",
     "eslint-config-prettier": "^9.0.0",
     "eslint-plugin-react": "^7.33.2",
+    "husky": "^8.0.3",
     "prettier": "3.1.0"
+  },
+  "dependencies": {
+    "lint-staged": "^15.1.0"
+  },
+  "lint-staged": {
+    "**/*": "prettier --write --ignore-unknown --no-stash"
   }
 }
