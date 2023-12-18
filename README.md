@@ -16,9 +16,6 @@ This project includes API tests for [Swagger Petstore](https://petstore.swagger.
   │       └── playwright-tests.yml
   ├── data
   │   └── login.data.ts
-  ├── env
-  │   └── .env
-  │   └── global.ts
   ├── postman
   │   ├── Swagger-Petstore-Pet.postman_collection.json
   │   ├── Swagger-Petstore-Store.postman_collection.json
